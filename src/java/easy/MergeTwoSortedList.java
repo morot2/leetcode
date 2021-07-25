@@ -1,10 +1,13 @@
-package java;
+package java.easy;
 
 import java.common.ListNode;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * https://leetcode.com/problems/merge-two-sorted-lists/
+ */
 public class MergeTwoSortedList {
     public static void main(String[] args) {
         ListNode l1_3 = new ListNode(4);

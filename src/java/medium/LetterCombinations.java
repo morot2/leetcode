@@ -1,4 +1,4 @@
-package java;
+package java.medium;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,6 +6,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+ */
 public class LetterCombinations {
     public static void main(String[] args){
         List<String> answer = letterCombinations("2");

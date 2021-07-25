@@ -1,9 +1,11 @@
-package java;
+package java.medium;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
+/**
+ * https://leetcode.com/problems/generate-parentheses/
+ */
 public class GenerateParentheses {
     public static List<String> generateParenthesis(int n) {
         int l = n - 1, r = n;

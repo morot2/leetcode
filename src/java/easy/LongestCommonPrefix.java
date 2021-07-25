@@ -1,7 +1,10 @@
-package java;
+package java.easy;
 
 import java.util.stream.Stream;
 
+/**
+ * https://leetcode.com/problems/longest-common-prefix/
+ */
 public class LongestCommonPrefix {
     public static void main(String[] args) {
         System.out.println(longestCommonPrefix(new String[]{"dog","racecar","car"}));

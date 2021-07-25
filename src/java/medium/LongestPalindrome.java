@@ -1,5 +1,8 @@
-package java;
+package java.medium;
 
+/**
+ * https://leetcode.com/problems/longest-palindromic-substring/
+ */
 public class LongestPalindrome {
     public static String longestPalindrome(String s) {
         if(isPalindrome(s)) return s;

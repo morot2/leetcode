@@ -1,9 +1,11 @@
-package java;
+package java.medium;
 
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.Stack;
 
+/**
+ * https://leetcode.com/problems/max-consecutive-ones-iii/
+ */
 public class MaxConsecutiveOne3 {
     public static int longestOnes(int[] nums, int k) {
         int max = 0;

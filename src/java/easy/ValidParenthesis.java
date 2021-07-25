@@ -1,7 +1,10 @@
-package java;
+package java.easy;
 
 import java.util.Stack;
 
+/**
+ * https://leetcode.com/problems/valid-parentheses/
+ */
 public class ValidParenthesis {
 
     public static void main(String[] args) {
@@ -9,9 +12,7 @@ public class ValidParenthesis {
     }
 
     public static boolean isValid(String s) {
-
         Stack<String> stack = new Stack();
-
         String[] letters = s.split("");
 
         for (String letter : letters){

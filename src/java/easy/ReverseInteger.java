@@ -1,7 +1,8 @@
-package java;
+package java.easy;
 
-import java.math.BigInteger;
-
+/**
+ * https://leetcode.com/problems/reverse-integer/
+ */
 public class ReverseInteger {
 
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package java;
+package java.medium;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,6 +6,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * https://leetcode.com/problems/integer-to-roman/
+ */
+//TODO : 다시 풀어보기
 public class IntegerToRoman {
 
     public static void main(String[] args){

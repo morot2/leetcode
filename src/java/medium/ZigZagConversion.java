@@ -1,10 +1,13 @@
-package java;
+package java.medium;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * https://leetcode.com/problems/zigzag-conversion/
+ */
 public class ZigZagConversion {
     public static void main(String[] args){
         System.out.println(convert("AB", 1));

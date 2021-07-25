@@ -1,7 +1,8 @@
-package java;
+package java.easy;
 
-import java.util.Stack;
-
+/**
+ * https://leetcode.com/problems/palindrome-number/
+ */
 public class PalindromeNumber {
 
     public static void main(String[] args){

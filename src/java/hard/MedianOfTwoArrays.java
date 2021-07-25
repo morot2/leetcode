@@ -1,5 +1,8 @@
-package java;
+package java.hard;
 
+/**
+ * https://leetcode.com/problems/longest-substring-without-repeating-characters/
+ */
 public class MedianOfTwoArrays {
     public static void main(String[] args) {
         System.out.println(findMedianSortedArrays(new int[]{}, new int[]{2,3}));

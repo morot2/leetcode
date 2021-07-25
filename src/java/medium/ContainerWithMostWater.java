@@ -1,5 +1,8 @@
-package java;
+package java.medium;
 
+/**
+ * https://leetcode.com/problems/container-with-most-water/
+ */
 public class ContainerWithMostWater {
 
     public static int maxArea(int[] height) {

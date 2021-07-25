@@ -1,8 +1,11 @@
-package java;
+package java.medium;
 
 import java.common.ListNode;
 import java.util.Stack;
 
+/**
+ * https://leetcode.com/problems/reverse-linked-list-ii/
+ */
 public class ReverseLinkedList2 {
 
     public static ListNode reverseBetween(ListNode head, int left, int right) {

@@ -1,8 +1,11 @@
-package java;
+package java.easy;
 
 import java.common.ListNode;
 import java.util.Stack;
 
+/**
+ * https://leetcode.com/problems/reverse-linked-list/
+ */
 public class ReverseLinkedList {
 
     public static ListNode reverseList(ListNode head) {

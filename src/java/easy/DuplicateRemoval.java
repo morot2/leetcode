@@ -1,7 +1,10 @@
-package java;
+package java.easy;
 
 import java.util.Stack;
 
+/**
+ * https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
+ */
 public class DuplicateRemoval {
     public static String removeDuplicates(String s) {
         Stack<String> stack = new Stack();
