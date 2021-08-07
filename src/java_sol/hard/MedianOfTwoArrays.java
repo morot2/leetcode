@@ -1,4 +1,4 @@
-package java.hard;
+package java_sol.hard;
 
 /**
  * https://leetcode.com/problems/longest-substring-without-repeating-characters/

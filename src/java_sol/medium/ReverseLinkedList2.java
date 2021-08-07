@@ -1,6 +1,6 @@
-package java.medium;
+package java_sol.medium;
 
-import java.common.ListNode;
+import java_sol.comm.ListNode;
 import java.util.Stack;
 
 /**

@@ -1,4 +1,4 @@
-package java.medium;
+package java_sol.medium;
 
 import java.util.Arrays;
 

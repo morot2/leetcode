@@ -1,4 +1,4 @@
-package java.medium;
+package java_sol.medium;
 
 /**
  * https://leetcode.com/problems/longest-palindromic-substring/

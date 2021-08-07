@@ -1,4 +1,4 @@
-package java.common;
+package java_sol.comm;
 
 public class ListNode {
     public int val;

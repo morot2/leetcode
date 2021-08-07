@@ -1,6 +1,7 @@
-package java.easy;
+package java_sol.easy;
 
-import java.common.ListNode;
+import java_sol.comm.ListNode;
+
 import java.util.Stack;
 
 /**

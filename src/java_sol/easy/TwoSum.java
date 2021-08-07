@@ -1,4 +1,4 @@
-package java.easy;
+package java_sol.easy;
 
 /**
  * https://leetcode.com/problems/two-sum/

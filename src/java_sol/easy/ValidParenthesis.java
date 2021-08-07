@@ -1,4 +1,4 @@
-package java.easy;
+package java_sol.easy;
 
 import java.util.Stack;
 
