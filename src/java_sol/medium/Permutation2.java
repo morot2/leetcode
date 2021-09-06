@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -61,11 +62,10 @@ public class Permutation2 {
     }
 
     public static void main(String[] args) {
-        permuteUnique(new int[]{1, 1, 2})
-            .stream()
-            .forEach(t ->
+        Objects.requireNonNull(permuteUnique(new int[]{1, 1, 2}))
+               .forEach(t ->
                      {
-                         t.stream().forEach(System.out::print);
+                         t.forEach(System.out::print);
                          System.out.println();
                      });
     }

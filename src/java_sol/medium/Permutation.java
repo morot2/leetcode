@@ -40,10 +40,9 @@ public class Permutation {
 
     public static void main(String[] args) {
         permute(new int[]{1, 2, 3})
-            .stream()
             .forEach(t ->
                      {
-                         t.stream().forEach(System.out::print);
+                         t.forEach(System.out::print);
                          System.out.println();
                      });
     }
